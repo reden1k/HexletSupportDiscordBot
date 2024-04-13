@@ -30,7 +30,7 @@ public class Bot extends ListenerAdapter {
             "https://i.pinimg.com/originals/31/e5/a3/31e5a32e8c72de66b996b6a72f416f16.gif",
             "https://i.pinimg.com/originals/71/88/d6/7188d6e75a8f5305f0413b815be3bad3.gif"
     };
-    public static final String token = "zygaMqYo9o6cwXKVnKL0td3B14zGrcKk";
+    public static final String token = "MTIyNjYzMTE1NTA4NDk1NTY4OA.GrVgAo.4Jt5jik2nYPgEeC8gCJx3Fk48t6amOIJAhqh1w";
     private static final Long JS_ROLE_ID = 1227697647788232815L;
     private static final Long PY_ROLE_ID = 1227697828780966070L;
     private static final Long JAVA_ROLE_ID = 1227697425528127519L;
