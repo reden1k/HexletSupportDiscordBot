@@ -7,9 +7,7 @@ import net.dv8tion.jda.api.entities.channel.concrete.TextChannel;
 import net.dv8tion.jda.api.entities.channel.middleman.MessageChannel;
 import net.dv8tion.jda.api.entities.emoji.Emoji;
 import net.dv8tion.jda.api.events.guild.member.GuildMemberJoinEvent;
-import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;
 import net.dv8tion.jda.api.events.interaction.component.ButtonInteractionEvent;
-import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import net.dv8tion.jda.api.interactions.components.buttons.Button;
 import net.dv8tion.jda.api.requests.restaction.PermissionOverrideAction;
@@ -30,7 +28,7 @@ public class Bot extends ListenerAdapter {
             "https://i.pinimg.com/originals/31/e5/a3/31e5a32e8c72de66b996b6a72f416f16.gif",
             "https://i.pinimg.com/originals/71/88/d6/7188d6e75a8f5305f0413b815be3bad3.gif"
     };
-    public static final String token = "MTIyNjYzMTE1NTA4NDk1NTY4OA.G8jyKW.a-AVciAQkxhAtS4pDQVK7bXDCsJmoRLFv0vo6w";
+    public static String token;
     private static final Long JS_ROLE_ID = 1227697647788232815L;
     private static final Long PY_ROLE_ID = 1227697828780966070L;
     private static final Long JAVA_ROLE_ID = 1227697425528127519L;

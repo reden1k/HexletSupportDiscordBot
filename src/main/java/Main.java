@@ -12,7 +12,7 @@ import net.dv8tion.jda.api.utils.cache.CacheFlag;
 
 public class Main extends ListenerAdapter {
     public static void main(String[] args) throws InterruptedException {
-        JDA jda = JDABuilder.createDefault(Bot.token)
+        JDA jda = JDABuilder.createDefault(Bot.token = args[0])
                 .addEventListeners(new Main())
                 .enableIntents(GatewayIntent.MESSAGE_CONTENT, GatewayIntent.GUILD_MEMBERS)
                 .disableCache(CacheFlag.MEMBER_OVERRIDES, CacheFlag.VOICE_STATE)
